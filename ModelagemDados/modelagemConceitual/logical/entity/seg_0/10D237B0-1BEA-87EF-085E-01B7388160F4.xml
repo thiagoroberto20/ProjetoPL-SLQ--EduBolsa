@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10D237B0-1BEA-87EF-085E-01B7388160F4" name="SELECAO">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-27 00:13:58 UTC</createdTime>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>SELE</preferredAbbreviation>
+<shortName>SELE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="selecao_id" id="544FE813-F7E2-40B4-F40E-C54ADDE7492A">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-27 01:01:31 UTC</createdTime>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota_enem" id="BA296944-F0A1-F814-194D-62FA4158E5E5">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-27 01:02:02 UTC</createdTime>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano" id="60D21DF9-0554-12F5-6A50-87D681E25667">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-27 01:02:46 UTC</createdTime>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resultado" id="7809B06C-9810-3519-21CE-369AEEE857AC">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-27 01:02:53 UTC</createdTime>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B1D87FA-B083-9E6B-BF45-CE228164DE45" name="SELECAO PK">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-27 01:03:06 UTC</createdTime>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>544FE813-F7E2-40B4-F40E-C54ADDE7492A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
