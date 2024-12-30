@@ -17,7 +17,7 @@
 <preferredAbbreviation>CURS</preferredAbbreviation>
 <shortName>CURS</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="curso_id" id="3BDEC2DF-6F77-8DFB-2C1D-6B018C20159E">
+<Attribute name="id_curso" id="3BDEC2DF-6F77-8DFB-2C1D-6B018C20159E">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:50:44 UTC</createdTime>
 <ownerDesignName>modelagemConceitual</ownerDesignName>
@@ -26,6 +26,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nome" id="1A912AAE-1183-DB0A-F015-D4F57035E26D">
@@ -35,10 +36,11 @@
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="turno" id="0F7A7ED4-5B1B-2261-5659-43D6217B1643">
 <createdBy>xavie</createdBy>
@@ -50,7 +52,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="carga_horaria" id="5490AA3E-0EF1-D058-9EDF-2A50EE77C10E">
 <createdBy>xavie</createdBy>
@@ -59,12 +63,12 @@
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="valor" id="888A2C1F-94D5-D40F-65B3-724BE8085218">
+<Attribute name="valor_mensalidade" id="888A2C1F-94D5-D40F-65B3-724BE8085218">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:52:53 UTC</createdTime>
 <ownerDesignName>modelagemConceitual</ownerDesignName>
@@ -74,7 +78,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

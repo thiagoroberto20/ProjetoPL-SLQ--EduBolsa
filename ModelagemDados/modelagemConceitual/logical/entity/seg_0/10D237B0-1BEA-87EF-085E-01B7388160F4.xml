@@ -17,7 +17,7 @@
 <preferredAbbreviation>SELE</preferredAbbreviation>
 <shortName>SELE</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="selecao_id" id="544FE813-F7E2-40B4-F40E-C54ADDE7492A">
+<Attribute name="id_selecao" id="544FE813-F7E2-40B4-F40E-C54ADDE7492A">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 01:01:31 UTC</createdTime>
 <ownerDesignName>modelagemConceitual</ownerDesignName>
@@ -26,6 +26,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nota_enem" id="BA296944-F0A1-F814-194D-62FA4158E5E5">
@@ -35,22 +36,25 @@
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ano" id="60D21DF9-0554-12F5-6A50-87D681E25667">
+<Attribute name="ano_inscricao" id="60D21DF9-0554-12F5-6A50-87D681E25667">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 01:02:46 UTC</createdTime>
 <ownerDesignName>modelagemConceitual</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="resultado" id="7809B06C-9810-3519-21CE-369AEEE857AC">
 <createdBy>xavie</createdBy>
@@ -62,7 +66,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

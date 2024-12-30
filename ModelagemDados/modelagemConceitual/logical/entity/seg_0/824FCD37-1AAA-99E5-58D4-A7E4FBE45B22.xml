@@ -17,7 +17,7 @@
 <preferredAbbreviation>ALUN</preferredAbbreviation>
 <shortName>ALUN</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="aluno_id" id="E744DFDD-C694-EFB3-3549-7BC10FDFD6A9">
+<Attribute name="id_aluno" id="E744DFDD-C694-EFB3-3549-7BC10FDFD6A9">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:57:22 UTC</createdTime>
 <ownerDesignName>modelagemConceitual</ownerDesignName>
@@ -26,6 +26,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nome" id="AC0C741F-FA53-67C7-C01A-1CBA8A04B960">
@@ -35,10 +36,11 @@
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cpf" id="E9324950-7201-DFC8-FFD6-10F41213AFF2">
 <createdBy>xavie</createdBy>
@@ -47,21 +49,22 @@
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nascimento" id="E3DAB216-1E59-D407-6BA3-D45B6A7B4201">
+<Attribute name="data_nascimento" id="E3DAB216-1E59-D407-6BA3-D45B6A7B4201">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:58:25 UTC</createdTime>
 <ownerDesignName>modelagemConceitual</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="sexo" id="57FB7417-C590-E5F6-6EEC-82A0563C3DD4">
@@ -74,9 +77,11 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="renda" id="2BA2914F-7842-0339-65EF-72DCB49AEB78">
+<Attribute name="renda_familiar" id="2BA2914F-7842-0339-65EF-72DCB49AEB78">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:58:51 UTC</createdTime>
 <ownerDesignName>modelagemConceitual</ownerDesignName>
@@ -86,6 +91,37 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="7DDEEB14-43C7-02F9-9AB2-9DBC2A287C51">
+<createdBy>r.xavier</createdBy>
+<createdTime>2024-12-30 13:32:26 UTC</createdTime>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_bolsa" id="D2C28C47-4A99-65E5-9EA5-6D57EBEAB809">
+<createdBy>r.xavier</createdBy>
+<createdTime>2024-12-30 14:24:18 UTC</createdTime>
+<generatorID>E4041296-E7CE-3A66-AEBE-81208092AAD8</generatorID>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<referedAttribute>4F038A47-7899-8696-E69B-D31CB05771C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
