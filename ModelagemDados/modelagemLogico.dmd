@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelagemLogico" id="103194BA-0B3A-BB19-ECCB-9CCEB743F17E" version="3.5">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-27 00:03:49 UTC</createdTime>
+<ownerDesignName>Modelagem_Conceitual</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>103194BA-0B3A-BB19-ECCB-9CCEB743F17E</designId>
+</OSDM_Design>

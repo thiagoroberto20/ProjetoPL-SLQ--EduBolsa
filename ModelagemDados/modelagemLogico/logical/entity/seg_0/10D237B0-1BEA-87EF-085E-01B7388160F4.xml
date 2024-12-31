@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10D237B0-1BEA-87EF-085E-01B7388160F4" name="SELECAO">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:13:58 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -20,7 +20,7 @@
 <Attribute name="id_selecao" id="544FE813-F7E2-40B4-F40E-C54ADDE7492A">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 01:01:31 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <Attribute name="nota_enem" id="BA296944-F0A1-F814-194D-62FA4158E5E5">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 01:02:02 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -46,7 +46,7 @@
 <Attribute name="ano_inscricao" id="60D21DF9-0554-12F5-6A50-87D681E25667">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 01:02:46 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -59,7 +59,7 @@
 <Attribute name="resultado" id="7809B06C-9810-3519-21CE-369AEEE857AC">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 01:02:53 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -74,7 +74,7 @@
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-31 10:35:55 UTC</createdTime>
 <generatorID>A9F5A695-B1A1-022A-F946-6D04B0050655</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -88,7 +88,7 @@
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-31 10:35:55 UTC</createdTime>
 <generatorID>A9F5A695-B1A1-022A-F946-6D04B0050655</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -102,7 +102,7 @@
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-31 10:36:37 UTC</createdTime>
 <generatorID>ABE7040C-1760-4B95-B4B5-CA3C6082DE8C</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -116,7 +116,7 @@
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-31 10:38:08 UTC</createdTime>
 <generatorID>A9F5A695-B1A1-022A-F946-6D04B0050655</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -130,7 +130,7 @@
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-31 10:38:53 UTC</createdTime>
 <generatorID>A9F5A695-B1A1-022A-F946-6D04B0050655</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -145,7 +145,7 @@
 <identifier id="5B1D87FA-B083-9E6B-BF45-CE228164DE45" name="SELECAO PK">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 01:03:06 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="false"/>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="218A5A60-94EF-649D-2CBB-8E629C834DDA" containerWithKeyObject="451BD5E6-D58B-ED52-E4DB-B2C46C00DF39" localFKIndex="7AB9AA07-F6C4-D45B-7400-FAC1CB9178FB" name="SELE_BOLS_FK">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>A9F5A695-B1A1-022A-F946-6D04B0050655</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<referredTableLongName>BOLSA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0CFAE336-761D-46E0-A15C-DB57795FA267</referredTableID>
+<keyObject>6400C320-0955-486D-2BDB-40E586C7E2B6</keyObject>
+<referredKeyID>6400C320-0955-486D-2BDB-40E586C7E2B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_bolsa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

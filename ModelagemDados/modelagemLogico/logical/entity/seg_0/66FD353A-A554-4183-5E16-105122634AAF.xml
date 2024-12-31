@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66FD353A-A554-4183-5E16-105122634AAF" name="INSTITUICAO">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:09:35 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -20,7 +20,7 @@
 <Attribute name="id_instituicao" id="B3FBA8A9-12D0-1EAB-9108-47666178A836">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:46:46 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <Attribute name="nome" id="6AB85F58-2C4A-C06E-2259-8F420AFE8D9D">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:47:39 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -45,7 +45,7 @@
 <Attribute name="cnpj" id="EA3BA92C-80B7-7927-F273-742AB5394FD1">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:48:30 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -58,7 +58,7 @@
 <Attribute name="endereco" id="554A264A-4753-3D67-EDDE-7C8FB418C18E">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:49:17 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -72,7 +72,7 @@
 <Attribute name="tipo_instituicao" id="C42B5E8A-E01B-0C70-0C9F-A145E8C49B0D">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:49:28 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -88,7 +88,7 @@
 <identifier id="8204AF1F-5FED-223F-E141-C56B86705415" name="INSTITUICAO PK">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:47:29 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="false"/>

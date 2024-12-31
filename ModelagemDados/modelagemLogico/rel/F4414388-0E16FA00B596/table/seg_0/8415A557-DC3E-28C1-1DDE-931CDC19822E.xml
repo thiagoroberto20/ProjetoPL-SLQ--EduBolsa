@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8415A557-DC3E-28C1-1DDE-931CDC19822E" name="CURSO">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>B5537D69-1014-009F-35F0-9A9F24613DC1</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<ordsAlias>curs</ordsAlias>
+<abbreviation>CURS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="D7B4A23F-D5F3-74D1-B5E5-1037E9A8C291">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>3BDEC2DF-6F77-8DFB-2C1D-6B018C20159E</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="63044674-BFE0-312E-27DE-801E7C3448F4">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>1A912AAE-1183-DB0A-F015-D4F57035E26D</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="turno" id="57AFECAE-88AF-9478-0C11-7B30F81EA0A2">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>0F7A7ED4-5B1B-2261-5659-43D6217B1643</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="carga_horaria" id="E1EC1BE6-8894-5D17-38A4-B71694986C54">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>5490AA3E-0EF1-D058-9EDF-2A50EE77C10E</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_mensalidade" id="F19C4327-513E-DFCD-DC96-68B29A2AFC97">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>888A2C1F-94D5-D40F-65B3-724BE8085218</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_instituicao" id="0EACE15B-031C-7AA9-AD7A-DB832A2D2CCF">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>8EC20DFD-50B9-7ADF-56D2-8F02DE8B710B</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5B6380B-658E-A10E-A340-35898610B9FF" referredColumn="BD3CCB9F-C3E7-48CB-28D0-54759D03BA4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="856EBFF3-292B-01A3-F0D0-0673F3E7BB27" name="CURS_PK">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>3E2510BA-3967-D9E4-BEB0-D23E845C144B</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7B4A23F-D5F3-74D1-B5E5-1037E9A8C291"/>
+<colUsage columnID="0EACE15B-031C-7AA9-AD7A-DB832A2D2CCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5833FDFF-F52B-44EA-25DC-956887322C8F" name="CURS_INST_FK">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>EF495AD2-E23D-2110-EFFE-98694C94325F</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EACE15B-031C-7AA9-AD7A-DB832A2D2CCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

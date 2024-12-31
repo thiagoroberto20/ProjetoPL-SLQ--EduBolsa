@@ -71,18 +71,64 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_aluno" id="70C951BB-4DDF-D3EB-4241-10B2A6666959">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:35:24 UTC</createdTime>
+<generatorID>A468BA96-AD5D-FBD6-3184-E42461242A13</generatorID>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<referedAttribute>E744DFDD-C694-EFB3-3549-7BC10FDFD6A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="3B5771F5-7BC1-9F0E-570A-928A4E121C7F">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:38:00 UTC</createdTime>
+<generatorID>265F11D4-AF9E-CFF1-E236-6820C9FBF33A</generatorID>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<referedAttribute>3BDEC2DF-6F77-8DFB-2C1D-6B018C20159E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_instituicao" id="0670EC0A-654A-C11D-4009-8BF29D48E815">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:38:53 UTC</createdTime>
+<generatorID>265F11D4-AF9E-CFF1-E236-6820C9FBF33A</generatorID>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<referedAttribute>8EC20DFD-50B9-7ADF-56D2-8F02DE8B710B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E6723930-3945-1760-40DD-A4D2B78960F5" name="BOLSA PK">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 01:00:27 UTC</createdTime>
 <ownerDesignName>modelagemConceitual</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>4F038A47-7899-8696-E69B-D31CB05771C6</attributeRef>
+<attributeRef>70C951BB-4DDF-D3EB-4241-10B2A6666959</attributeRef>
+<attributeRef>3B5771F5-7BC1-9F0E-570A-928A4E121C7F</attributeRef>
+<attributeRef>0670EC0A-654A-C11D-4009-8BF29D48E815</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

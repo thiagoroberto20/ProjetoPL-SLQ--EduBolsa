@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0571962-0EEF-66AA-7C77-9AEE8AD38C7D" name="DESEMPENHO">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>204E25DD-A608-5716-417F-D45F22A02596</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<ordsAlias>dese</ordsAlias>
+<abbreviation>Dese</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_desempenho" id="430EFC0A-1DE7-D365-7243-C1B92655E497">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>32BA5DA4-B54E-082E-A21F-54ECE0E866CD</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="semestre" id="C7711BB5-74BC-828F-327F-40FDC112DF19">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>83F5E462-DA35-CB19-C0FA-4DB9363FB449</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota_media" id="C2D58F98-790D-AB03-5E96-3FFAC40EB384">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>AC8AEFD7-5A81-1C3B-522D-BA6D51B1433F</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="frequencia" id="FB99BC07-E70C-5BCA-FDDE-EC70017A86F5">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>73159621-CE95-BC2C-4932-E3B1053B414C</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_aluno" id="2A18C83E-1C18-5065-6332-0D51A76337D7">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>2688A865-D6DA-2480-8168-CB62C17832F3</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5B0EDAC-7B3B-0445-7C3C-743AC85D0BF6" referredColumn="3F19BC2C-7C55-5457-98DB-451D0BB6A3B1"/>
+</associations>
+</Column>
+<Column name="Id_curso" id="11FFAB00-6EB1-A82E-520C-F2901A5BC5BF">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>4D0F207C-2CF0-66DC-F362-E403B07BAC23</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B35374E-E80B-502F-79E0-5249076B6925" referredColumn="D7B4A23F-D5F3-74D1-B5E5-1037E9A8C291"/>
+</associations>
+</Column>
+<Column name="Id_instituicao" id="387F4E4E-C601-7B6F-01F2-43DC1450561F">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>476B4D25-8211-6E37-ED33-AB066A1FEB41</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B35374E-E80B-502F-79E0-5249076B6925" referredColumn="0EACE15B-031C-7AA9-AD7A-DB832A2D2CCF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D7B8C45-E6A4-6195-0638-06A068E3347F" name="DESE_PK">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>7A69E3D1-0775-299A-C6B1-BCC8AB2B74FC</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="430EFC0A-1DE7-D365-7243-C1B92655E497"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43343FF2-B439-5681-64E3-A3C49FD605EB" name="DESE_ALUN_FK">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>B7C0DD0D-AC60-2CEF-4D93-8D2EFA5868C9</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A18C83E-1C18-5065-6332-0D51A76337D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF9B7A0F-AE1C-98D2-BD39-63599724FBFF" name="DESE_CURS_FK">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:40:38 UTC</createdTime>
+<generatorID>A76A7EEA-69D5-3A44-1865-26BB613AE590</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11FFAB00-6EB1-A82E-520C-F2901A5BC5BF"/>
+<colUsage columnID="387F4E4E-C601-7B6F-01F2-43DC1450561F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="204E25DD-A608-5716-417F-D45F22A02596" name="DESEMPENHO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8475AC22-6264-3B3C-AF54-F6DAB92A8BA6" name="BOLSA">
 <createdBy>xavie</createdBy>
-<createdTime>2024-12-27 00:14:24 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<createdTime>2024-12-27 00:13:11 UTC</createdTime>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -14,13 +14,13 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<preferredAbbreviation>DESE</preferredAbbreviation>
-<shortName>Dese</shortName>
+<preferredAbbreviation>BOLS</preferredAbbreviation>
+<shortName>BOLS</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_desempenho" id="32BA5DA4-B54E-082E-A21F-54ECE0E866CD">
+<Attribute name="id_bolsa" id="4F038A47-7899-8696-E69B-D31CB05771C6">
 <createdBy>xavie</createdBy>
-<createdTime>2024-12-27 00:55:09 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<createdTime>2024-12-27 01:00:14 UTC</createdTime>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -29,54 +29,53 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="semestre" id="83F5E462-DA35-CB19-C0FA-4DB9363FB449">
+<Attribute name="tipo" id="6874D5A4-F695-EFB0-BB47-26CFDA783411">
 <createdBy>xavie</createdBy>
-<createdTime>2024-12-27 00:55:49 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<createdTime>2024-12-27 01:00:28 UTC</createdTime>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>6</dataTypeSize>
-<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nota_media" id="AC8AEFD7-5A81-1C3B-522D-BA6D51B1433F">
+<Attribute name="valor" id="8A633540-E599-C3F7-E0E5-5AFD3DF0F2E0">
 <createdBy>xavie</createdBy>
-<createdTime>2024-12-27 00:56:12 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<createdTime>2024-12-27 01:00:39 UTC</createdTime>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="398CFDE9-1225-E81B-D0E7-F330323134B8">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-27 01:00:49 UTC</createdTime>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="frequencia" id="73159621-CE95-BC2C-4932-E3B1053B414C">
+<Attribute name="id_aluno" id="70C951BB-4DDF-D3EB-4241-10B2A6666959">
 <createdBy>xavie</createdBy>
-<createdTime>2024-12-27 00:56:32 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
-<engineerTo>
-<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,5,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_aluno" id="2688A865-D6DA-2480-8168-CB62C17832F3">
-<createdBy>xavie</createdBy>
-<createdTime>2024-12-31 10:37:05 UTC</createdTime>
-<generatorID>B7C0DD0D-AC60-2CEF-4D93-8D2EFA5868C9</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<createdTime>2024-12-31 10:35:24 UTC</createdTime>
+<generatorID>A468BA96-AD5D-FBD6-3184-E42461242A13</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -86,11 +85,11 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_curso" id="4D0F207C-2CF0-66DC-F362-E403B07BAC23">
+<Attribute name="id_curso" id="3B5771F5-7BC1-9F0E-570A-928A4E121C7F">
 <createdBy>xavie</createdBy>
-<createdTime>2024-12-31 10:39:05 UTC</createdTime>
-<generatorID>A76A7EEA-69D5-3A44-1865-26BB613AE590</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<createdTime>2024-12-31 10:38:00 UTC</createdTime>
+<generatorID>265F11D4-AF9E-CFF1-E236-6820C9FBF33A</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -100,11 +99,11 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_instituicao" id="476B4D25-8211-6E37-ED33-AB066A1FEB41">
+<Attribute name="id_instituicao" id="0670EC0A-654A-C11D-4009-8BF29D48E815">
 <createdBy>xavie</createdBy>
-<createdTime>2024-12-31 10:39:05 UTC</createdTime>
-<generatorID>A76A7EEA-69D5-3A44-1865-26BB613AE590</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<createdTime>2024-12-31 10:38:53 UTC</createdTime>
+<generatorID>265F11D4-AF9E-CFF1-E236-6820C9FBF33A</generatorID>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -116,20 +115,20 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7A69E3D1-0775-299A-C6B1-BCC8AB2B74FC" name="DESEMPENHO ACADEMICO PK">
+<identifier id="E6723930-3945-1760-40DD-A4D2B78960F5" name="BOLSA PK">
 <createdBy>xavie</createdBy>
-<createdTime>2024-12-27 00:55:44 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<createdTime>2024-12-27 01:00:27 UTC</createdTime>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>32BA5DA4-B54E-082E-A21F-54ECE0E866CD</attributeRef>
-<attributeRef>2688A865-D6DA-2480-8168-CB62C17832F3</attributeRef>
-<attributeRef>4D0F207C-2CF0-66DC-F362-E403B07BAC23</attributeRef>
-<attributeRef>476B4D25-8211-6E37-ED33-AB066A1FEB41</attributeRef>
+<attributeRef>4F038A47-7899-8696-E69B-D31CB05771C6</attributeRef>
+<attributeRef>70C951BB-4DDF-D3EB-4241-10B2A6666959</attributeRef>
+<attributeRef>3B5771F5-7BC1-9F0E-570A-928A4E121C7F</attributeRef>
+<attributeRef>0670EC0A-654A-C11D-4009-8BF29D48E815</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

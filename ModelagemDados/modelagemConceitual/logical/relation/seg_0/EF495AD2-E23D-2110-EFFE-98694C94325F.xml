@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CRUSO_INSTITUICAO" directorySegmentName="seg_0" id="EF495AD2-E23D-2110-EFFE-98694C94325F">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:38:41 UTC</createdTime>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<sourcePk>8204AF1F-5FED-223F-E141-C56B86705415</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>66FD353A-A554-4183-5E16-105122634AAF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5537D69-1014-009F-35F0-9A9F24613DC1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

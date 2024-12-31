@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="824FCD37-1AAA-99E5-58D4-A7E4FBE45B22" name="ALUNO">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:12:52 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -20,7 +20,7 @@
 <Attribute name="id_aluno" id="E744DFDD-C694-EFB3-3549-7BC10FDFD6A9">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:57:22 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <Attribute name="nome" id="AC0C741F-FA53-67C7-C01A-1CBA8A04B960">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:57:38 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -45,7 +45,7 @@
 <Attribute name="cpf" id="E9324950-7201-DFC8-FFD6-10F41213AFF2">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:57:52 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -58,7 +58,7 @@
 <Attribute name="data_nascimento" id="E3DAB216-1E59-D407-6BA3-D45B6A7B4201">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:58:25 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -70,7 +70,7 @@
 <Attribute name="sexo" id="57FB7417-C590-E5F6-6EEC-82A0563C3DD4">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:58:39 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -84,7 +84,7 @@
 <Attribute name="renda_familiar" id="2BA2914F-7842-0339-65EF-72DCB49AEB78">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:58:51 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -99,7 +99,7 @@
 <Attribute name="endereço" id="7DDEEB14-43C7-02F9-9AB2-9DBC2A287C51">
 <createdBy>r.xavier</createdBy>
 <createdTime>2024-12-30 13:32:26 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -115,7 +115,7 @@
 <identifier id="C7D6F51D-D829-BE75-AAF5-2DFCE1BA1BDD" name="ALUNO PK">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:59:31 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="false"/>

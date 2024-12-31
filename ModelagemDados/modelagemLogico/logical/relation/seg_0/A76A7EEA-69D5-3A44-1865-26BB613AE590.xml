@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DESEMPENHO_CURSO" directorySegmentName="seg_0" id="A76A7EEA-69D5-3A44-1865-26BB613AE590">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:39:05 UTC</createdTime>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<sourcePk>3E2510BA-3967-D9E4-BEB0-D23E845C144B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B5537D69-1014-009F-35F0-9A9F24613DC1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>204E25DD-A608-5716-417F-D45F22A02596</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

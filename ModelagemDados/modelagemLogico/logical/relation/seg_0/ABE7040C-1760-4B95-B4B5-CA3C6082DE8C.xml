@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SELECAO_ALUNO" directorySegmentName="seg_0" id="ABE7040C-1760-4B95-B4B5-CA3C6082DE8C">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:36:37 UTC</createdTime>
+<ownerDesignName>modelagemLogico</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<sourcePk>C7D6F51D-D829-BE75-AAF5-2DFCE1BA1BDD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>824FCD37-1AAA-99E5-58D4-A7E4FBE45B22</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>10D237B0-1BEA-87EF-085E-01B7388160F4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BOLSA_ALUNO" directorySegmentName="seg_0" id="A468BA96-AD5D-FBD6-3184-E42461242A13">
+<createdBy>xavie</createdBy>
+<createdTime>2024-12-31 10:35:24 UTC</createdTime>
+<ownerDesignName>modelagemConceitual</ownerDesignName>
+<engineerTo>
+<item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
+</engineerTo>
+<sourcePk>C7D6F51D-D829-BE75-AAF5-2DFCE1BA1BDD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>824FCD37-1AAA-99E5-58D4-A7E4FBE45B22</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8475AC22-6264-3B3C-AF54-F6DAB92A8BA6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

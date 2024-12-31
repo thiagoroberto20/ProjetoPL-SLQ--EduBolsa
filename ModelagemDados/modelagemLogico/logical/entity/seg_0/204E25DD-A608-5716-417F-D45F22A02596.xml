@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="204E25DD-A608-5716-417F-D45F22A02596" name="DESEMPENHO">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:14:24 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -20,7 +20,7 @@
 <Attribute name="id_desempenho" id="32BA5DA4-B54E-082E-A21F-54ECE0E866CD">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:55:09 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -32,7 +32,7 @@
 <Attribute name="semestre" id="83F5E462-DA35-CB19-C0FA-4DB9363FB449">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:55:49 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -45,7 +45,7 @@
 <Attribute name="nota_media" id="AC8AEFD7-5A81-1C3B-522D-BA6D51B1433F">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:56:12 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -60,7 +60,7 @@
 <Attribute name="frequencia" id="73159621-CE95-BC2C-4932-E3B1053B414C">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:56:32 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -76,7 +76,7 @@
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-31 10:37:05 UTC</createdTime>
 <generatorID>B7C0DD0D-AC60-2CEF-4D93-8D2EFA5868C9</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -90,7 +90,7 @@
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-31 10:39:05 UTC</createdTime>
 <generatorID>A76A7EEA-69D5-3A44-1865-26BB613AE590</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -104,7 +104,7 @@
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-31 10:39:05 UTC</createdTime>
 <generatorID>A76A7EEA-69D5-3A44-1865-26BB613AE590</generatorID>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="true"/>
 </engineerTo>
@@ -119,7 +119,7 @@
 <identifier id="7A69E3D1-0775-299A-C6B1-BCC8AB2B74FC" name="DESEMPENHO ACADEMICO PK">
 <createdBy>xavie</createdBy>
 <createdTime>2024-12-27 00:55:44 UTC</createdTime>
-<ownerDesignName>modelagemConceitual</ownerDesignName>
+<ownerDesignName>modelagemLogico</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="F4414388-BC8C-0D16-5AAD-0E16FA00B596" value="false"/>
