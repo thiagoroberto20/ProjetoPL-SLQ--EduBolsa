@@ -63,6 +63,7 @@ Este trigger impede que uma bolsa seja atribuída a dois alunos diferentes.*/
 CREATE OR REPLACE TRIGGER TRG_BOLSA_STATUS_CHECK
 BEFORE UPDATE OR INSERT ON Bolsa
 FOR EACH ROW
+DECLARE v_count NUMBER;
 BEGIN
     IF :NEW.STATUS = 'Concedida' THEN
         SELECT COUNT(*) INTO v_count
