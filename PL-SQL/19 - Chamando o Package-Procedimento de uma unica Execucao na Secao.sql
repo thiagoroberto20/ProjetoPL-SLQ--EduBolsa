@@ -31,6 +31,3 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE('Renda do aluno: ' || v_renda);
 END;
 /
-
-
-SELECT * FROM EDUBOLSA.ALUNO;
